@@ -177,8 +177,15 @@
     </div>
     
 </body>
+<<<<<<< HEAD
 <div class="container creditos">
     <footer>Criada por Patrícia Canossa Gagliardi, para sugestões clique <a href="mailto:p.canossa@hotmail.com">aqui</a></footer>
 </div>  
 <script src="https://kit.fontawesome.com/707f1f01cc.js" crossorigin="anonymous"></script>  
 </html>
+=======
+    <div class="container creditos">
+        <footer>Criada por Patrícia Canossa Gagliardi, para sugestões clique <a href="mailto:p.canossa@hotmail.com">aqui</a></footer>
+    </div>    
+</html>
+>>>>>>> 8420e0601192f8e3701cbbc9de7f3e05d4b10ae6
