@@ -171,4 +171,7 @@
     </div>
     
 </body>
+    <div class="container creditos">
+        <footer>Criada por Patrícia Canossa Gagliardi, para sugestões clique <a href="mailto:p.canossa@hotmail.com">aqui</a></footer>
+    </div>    
 </html>
