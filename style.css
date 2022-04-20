@@ -1,9 +1,10 @@
 body {
     background-color: rgb(253, 211, 0);
     
+    
 }
 .cabecalho{
-    background:  linear-gradient(rgba(253, 211, 0,.50),rgba(253, 211, 0,.50)), url(img/medicine.jpg);
+    background: linear-gradient(rgba(35, 35, 194, 0.5),rgba(35, 35, 194, 0.5)), url(img/medicine.jpg);
     height: 300px;
     background-size: 100% 100%;
     display: flex;
@@ -14,7 +15,13 @@ body {
     font-weight: bold;
     font-size: 60px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: rgb(73, 72, 71);
+    color: whitesmoke;
+}
+
+.a {
+    background-color: rgb(13, 13, 122);
+    padding: 15px;
+    border-radius: 15px;
 }
 
 .corpo {
@@ -56,14 +63,16 @@ body {
 
 .botao {
     border: 0px;
-    width:200px;
-    height: 40px;
+    width:250px;
+    height: 50px;
     border-radius: 5px;
     margin-top: 15px;
     background-color: rgba(0, 0, 0, 0.5);
     color:aliceblue;
     font-weight: bold;
+    padding-top: 5px;
 }
+
 
 .botao:hover{
     background-color: rgba(245,245,245, 0.5);
@@ -96,4 +105,49 @@ body {
 
 .resultado p {
     margin: 0;
+}
+
+.creditos {
+    font-size: 10px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:500px;
+}
+
+.checkboxs label{
+    margin-left: 5px;
+
+}
+
+.checkboxs input {
+    width:15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.escolha p{
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.titulo {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.envia {
+    background-color: rgb(205, 199, 199);
+    height: 100px;
+    margin-top: 8px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-radius: 15px;
+}
+
+.cima-corpo input{
+    border-radius: 5px;
+    border: 0px;
 }

@@ -8,16 +8,17 @@
 </head>
 <body>
     <div class="container cabecalho">
-        VetCalc
+    <div class="a"><i class="fa-solid fa-bone"> VetCalc</i></div>
     </div>
     <div class=" container corpo">
         <div class="cima-corpo">
+            <p class="titulo">Informações do Animal/Medicação</p>
             <div class="peso">
                 <p class="insert-peso">
                     Peso do Animal
                 </p>
-        <form action="" method="post">
-             <input class="input-group input-group-sm mb-3" type="number" name="peso" id="peso" step="any" required>
+                <form action="" method="post">
+                <input class="input-group input-group-sm mb-3" type="number" name="peso" id="peso" step="any" required>
             </div>
             <div class="dosagem">
                 <p class="insert-peso">
@@ -43,35 +44,39 @@
                     <option value="gotas" >gotas</option>
                     <option value="injetavel" >Injetável</option>
                 </select>
-                <div class="form-check checkboxs">
+                    <div class="form-check checkboxs">
                         <input class="form-check-input" type="radio" name="apresentacao" id="mgml" value="mgml" checked>
                         <label class="form-check-label" for="apresentacao1">
                         mg/ml
                         </label>
                     </div>
-                    <div class="form-check">
+                    <div class="form-check checkboxs">
                         <input class="form-check-input" type="radio" name="apresentacao" id="percentual" value="percentual">
                         <label class="form-check-label" for="apresentacao2">
                         concentração %
                         </label>
                     </div>
-                    <div class="form-check">
+                    <div class="form-check checkboxs">
                         <input class="form-check-input" type="radio" name="apresentacao" id="mgcemml" value="mgcemml">
                         <label class="form-check-label" for="apresentacao3">
                         mg/100ml
                         </label>
                     </div>
-                </div>    
             </div>
+               
+            
             <div class="envia">
-                <button type="submit" class="botao" value="Calcular" id="calcular" name="calcular">Calcular</button>
+                <button type="submit" class="botao" value="Calcular" id="calcular" name="calcular">
+                <i class="fa-solid fa-calculator"><p> Calcular</p></i>
+                </button>
             </div>
         </div>    
+    </div>    
         </form>
 
         
         
-    </div>
+    
     <div class="container resultado">
         <?php
         
@@ -164,11 +169,16 @@
                     echo "<p>Correspondente à $gotas gotas. </p><br>";
                 }
                 echo "<p>Essa dose correponde à $dosetotal mg. </p><br>";        
+                
             }
-            
+            clearstatcache();    
         }
         ?>
     </div>
     
 </body>
+<div class="container creditos">
+    <footer>Criada por Patrícia Canossa Gagliardi, para sugestões clique <a href="mailto:p.canossa@hotmail.com">aqui</a></footer>
+</div>  
+<script src="https://kit.fontawesome.com/707f1f01cc.js" crossorigin="anonymous"></script>  
 </html>
