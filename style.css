@@ -1,0 +1,99 @@
+body {
+    background-color: rgb(253, 211, 0);
+    
+}
+.cabecalho{
+    background:  linear-gradient(rgba(253, 211, 0,.50),rgba(253, 211, 0,.50)), url(img/medicine.jpg);
+    height: 300px;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    align-content: center;
+    font-weight: bold;
+    font-size: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(73, 72, 71);
+}
+
+.corpo {
+    background-color: rgb(205, 199, 199);
+    height: 500px;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 15px;
+}
+
+.corpo input {
+    width: 60px;
+}
+
+.corpo p{
+    margin: 5px;
+}
+
+.cima-corpo {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.escolha select {
+    width: 300px;
+}
+
+.escolha {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: dashed;
+    border-width: 3px;
+    border-color: rgb(107, 105, 105);
+}
+
+.botao {
+    border: 0px;
+    width:200px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color:aliceblue;
+    font-weight: bold;
+}
+
+.botao:hover{
+    background-color: rgba(245,245,245, 0.5);
+    transition: 0.5s;
+    color: rgb(73, 72, 71) ;
+}
+
+.envia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.resultado {
+    background-color: rgb(12, 10, 114);
+    height:fit-content;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 15px;
+    font-size: 18px;
+    padding: 10px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+}
+
+.resultado p {
+    margin: 0;
+}
