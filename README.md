@@ -4,7 +4,13 @@ PROJETO DE CRIAÇÃO DE CALCULADORA PARA CÁLCULO DE DOSAGENS DE MEDICAMENTOS:
 
 Para acesso do projeto: <https:anishelter.com.br/vetcalc>
 
-<video width="320" height="240" controls>
-  <source src="https://youtu.be/-aZVhRvB45s" type="video/mp4">
-</video>
-[![Watch the video](https://user-images.githubusercontent.com/100949100/190454314-6f7324a3-9387-4ebd-8e25-3ee1948d4fdc.png)](https://youtu.be/-aZVhRvB45s)
+<center>
+ <iframe width="560" 
+         height="315" 
+         src="[YOUTUBE_LINK](https://youtu.be/-aZVhRvB45s)" 
+         title="YouTube video player" 
+         frameborder="0" 
+         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+         allowfullscreen>
+ </iframe>
+</center>
