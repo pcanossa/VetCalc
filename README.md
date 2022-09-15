@@ -7,5 +7,4 @@ Para acesso do projeto: <[https:anishelter.com.br/vetcalc](https://anishelter.co
 <video width="320" height="240" controls>
   <source src="https://youtu.be/-aZVhRvB45s" type="video/mp4">
 </video>
-![https://youtu.be/-aZVhRvB45s](https://youtu.be/-aZVhRvB45s)
-
+![https://youtu.be/-aZVhRvB45s]
